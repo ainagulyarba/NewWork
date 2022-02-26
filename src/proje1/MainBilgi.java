@@ -21,7 +21,6 @@ public class MainBilgi {
 
         selectOption();
 
-
     }
 
     private static void selectOption() {
@@ -45,7 +44,7 @@ public class MainBilgi {
                    break;
 
        }
-
+        selectOption();
     }
 
     private static void getInfo(Map<Integer, Bilgi> kisiBilgisi) {
@@ -86,9 +85,6 @@ public class MainBilgi {
         }else{
             selectOption();
         }
-
-
-
 
     }
 
